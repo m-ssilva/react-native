@@ -7,7 +7,7 @@ export default class Login extends Component {
     return (
       <KeyboardAvoidingView behavior="padding" style={styles.container}>
         <View style={styles.loginContainer}>
-          <Image resizeMode="contain" style={styles.logo} source={require('../assets/logo-balmung.png')} />
+          <Image resizeMode="contain" style={styles.logo} source={require('../assets/balmung-logo.png')} />
         </View>
         <View style={styles.formContainer}>
           <LoginForm />
