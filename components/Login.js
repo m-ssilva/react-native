@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { View, Text, TextInput, TouchableOpacity, StatusBar, Keyboard, Image, KeyboardAvoidingView } from 'react-native'
 import { Toast, Root } from 'native-base'
 import Styles from '../styles/login'
+import api from '../services/api'
 import * as Expo from 'expo'
 
 export default class Login extends Component {
